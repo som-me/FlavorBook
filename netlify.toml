@@ -1,0 +1,7 @@
+# netlify.toml
+[build]
+  command = "npm run build"
+  # Do not set publish dir, plugin handles it
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
