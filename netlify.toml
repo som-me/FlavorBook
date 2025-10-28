@@ -1,5 +1,4 @@
 [build]
-  base = "recipebook/app"
   command = "npm run build"
   # Do not hardcode publish — plugin handles it
 
