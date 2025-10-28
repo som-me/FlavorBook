@@ -1,6 +1,7 @@
 [build]
+  base = "recipebook/app"
   command = "npm run build"
-  # Do not hardcode ".next" as publish here; the plugin will handle outputs.
+  # Do not hardcode publish — plugin handles it
 
 [[plugins]]
   package = "@netlify/plugin-nextjs"
