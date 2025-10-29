@@ -67,7 +67,7 @@ export default function Footer() {
                     transition={{ delay: 0.6, duration: 0.6 }}
                     className="text-sm text-orange-100"
                 >
-                    © {new Date().getFullYear()} <span className="font-semibold">FlavorBook</span> — Built with ❤️ by Som Meher
+                    © {new Date().getFullYear()} <span className="font-semibold">FlavorBook</span> — Built with ❤️ by Prabin
                 </motion.p>
             </div>
 
